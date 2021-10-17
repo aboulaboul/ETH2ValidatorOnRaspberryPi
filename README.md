@@ -38,7 +38,8 @@ to add the folling entry: /swapfile swap swap defaults 0 0 <br/>
 Deactivating wifi if not used : <br/>
 sudo apt install net-tools <br/>
 sudo ifconfig wlan0 down <br/>
-Securing your installation <br/>
+
+<h2> Securing your installation </h2> 
 Deactivate login for ssh and add your public key in home/debian/.ssh/authorized_keys <br/>
 install and configure fail2ban <br/>
 install and configure ufw: <br/>
@@ -47,7 +48,7 @@ sudo ufw allow 30303 <br/>
 sudo ufw allow 12000/udp <br/>
 sudo ufw allow 13000/tcp <br/>
 
-<h2> Initialize key <h2> 
+<h2> Initialize key </h2> 
 copy your  eth2deposit-cli validator_keys in ~/eth2.0-deposit-cli/validator_keys <br/>
 mkdir /home/ubuntu/prysm && cd prysm <br/>
 curl https://raw.githubusercontent.com/prysmaticlabs/prysm/master/prysm.sh --output prysm.sh && chmod +x prysm.sh <br/>
