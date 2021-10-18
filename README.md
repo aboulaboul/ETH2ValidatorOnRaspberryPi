@@ -19,7 +19,7 @@ sudo mount /dev/sda1 /home/ <br/>
 </p>
 <p>
 nano /etc/fstab <br/>
-to add the folling entry: /dev/sda1  /home  ext4  defaults  0  0
+to add the following entry: /dev/sda1  /home  ext4  defaults  0  0
 </p>
 
 Checking <br/>
@@ -32,7 +32,7 @@ sudo chmod 600 swapfile <br/>
 sudo mkswap swapfile <br/>
 sudo swapon swapfile <br/>
 nano /etc/fstab <br/>
-to add the folling entry: /swapfile swap swap defaults 0 0 <br/>
+to add the following entry: /swapfile swap swap defaults 0 0 <br/>
 
 <h2> Optional configuration </h2>
 Deactivating wifi if not used : <br/>
